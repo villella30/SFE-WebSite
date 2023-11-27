@@ -195,6 +195,7 @@ a:hover {
     .container5,
     .container6 {
         padding: 5px 0;
+        margin: 0;
     }
 
     .description,
@@ -259,6 +260,7 @@ a:hover {
     .container5,
     .container6 {
         max-width: 100%;
+        margin: 0;
     }
 
     .description,
