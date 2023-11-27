@@ -108,11 +108,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.introduccion p {
+    margin-bottom: 5px;
+}
+
 .esquematico {
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.esquematico1 {
+    max-width: 90%;
 }
 
 .enlace {
@@ -171,32 +179,31 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    /* Media query para pantallas <= 600px */
 
-    /* Ajustes para pantallas más pequeñas */
     .container,
     .container2,
     .container3,
     .container4,
     .container5,
     .container6 {
-        padding: 10px 0;
-        /* Puedes ajustar estos valores según tus necesidades */
+        padding: 5px 0;
     }
 
     .description,
     .introduccion {
-        margin: 10px auto 0 auto;
-        width: 90%;
-        font-size: 16px;
+        margin: 5px auto 0 auto;
+        width: 95%;
+        font-size: 14px;
         padding: 10px;
     }
 
     .esquematico {
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     a {
-        width: 90%;
+        width: 95%;
     }
 
     .contacto {
@@ -205,6 +212,45 @@ a:hover {
 
     .cont1,
     .cont2 {
-        margin: 0 5px;
+        margin: 0 3px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Nueva media query para pantallas <= 400px */
+
+    .container,
+    .container2,
+    .container3,
+    .container4,
+    .container5,
+    .container6 {
+        padding: 2px 0;
+    }
+
+    .description,
+    .introduccion {
+        margin: 2px auto 0 auto;
+        width: 90%;
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .esquematico {
+        margin-top: 2px;
+    }
+
+    a {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    .contacto {
+        padding: 5px 0;
+    }
+
+    .cont1,
+    .cont2 {
+        margin: 0 2px;
     }
 }
