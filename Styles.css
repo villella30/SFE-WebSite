@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 720px;
+    margin: auto auto;
+    background-image: url("./images/descripcion.jpg");
+    padding: 50px 0;
+}
+
+.container2 {
+    width: 100%;
+    height: 730px;
+    margin: auto auto;
+    background-image: url("./images/panel.jpg");
+    padding: 50px 0;
+}
+.container3 {
+    width: 100%;
+    height: 900px;
+    margin: auto auto;
+    background-image: url("./images/descripcion.jpg");
+    padding: 50px 0;
+}
+.container4 {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-image: url("./images/panel.jpg");
+    padding: 50px 0;
+}
+
+.container5 {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-image: url("./images/descripcion.jpg");
+    padding: 50px 0;
+}
+.container6 {
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+}
+
+.container6 h2 {
+    text-align: center;
+}
+
+.container6 pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.authors {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+}
+
+.description {
+    margin: 60px auto 0 auto;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.introduccion {
+    margin: 60px auto 0 auto;
+    width: 800px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.esquematico {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.enlace {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    background-color: orange;
+}
+
+
+.contacto {
+    background-color: darkcyan;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contacto h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont1 {
+    margin-right: 20px;
+}
+.cont2 {
+    margin-left: 20px;
+}

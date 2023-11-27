@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunFlowerEnergy</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>SunFlowerEnergy</h1>
+        </div>
+        <div class="subtitle">
+            <h2>"Panel Solar"</h2>
+        </div>
+        <div class="authors">
+            <h2>Autores: Facundo Tymkiw, Valentino Villella. </h2>
+        </div>
+        <div class="description">
+
+            <h2 style="margin-bottom: 30px;"> Breve descripción </h2>
+
+            <p> Esta propuesta de proyecto se centra en la implementación de un respaldo de energía solar diseñado para
+                suministrar energía a electrodomésticos específicos durante cortes de luz o situaciones de baja tensión.
+                Su aplicación abarca desde ubicaciones remotas hasta excursiones y casas rodantes, proporcionando una
+                solución versátil y sostenible.
+
+            </p>
+            <p>
+                La infraestructura principal del proyecto consiste en un sofisticado tablero eléctrico que replica, de
+                manera simulada, la instalación eléctrica de una casa convencional. Este tablero incluye interruptores
+                térmicos para protección contra sobrecargas, tomacorrientes para la conexión de dispositivos y un
+                inversor para convertir la energía solar captada por el panel solar en electricidad utilizable.
+
+            </p>
+            <p>
+
+                El componente clave de esta iniciativa es el panel solar, el cual aprovecha la energía del sol para
+                generar electricidad limpia y renovable. Esta fuente de energía sostenible no solo contribuye a la
+                reducción de la dependencia de la red eléctrica convencional, sino que también promueve prácticas más
+                ecológicas y respetuosas con el medio ambiente.
+
+            </p>
+            <p>
+
+                El diseño del proyecto se adapta a diversas necesidades y escenarios, ofreciendo una solución eficiente
+                para situaciones de emergencia, así como una alternativa autónoma para lugares alejados donde la
+                infraestructura eléctrica convencional no está disponible.
+
+            </p>
+            <p>
+
+                En resumen, este proyecto no solo busca proporcionar un respaldo de energía confiable, sino también
+                fomentar el uso responsable de recursos mediante la integración de tecnologías solares en entornos
+                cotidianos y no convencionales.
+            </p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="introduccion">
+            <h2>Introducción</h2>
+            <p>La introducción teórica de este proyecto se basa en la fundamentación de la teoría y la investigación en
+                diversas áreas claves relacionadas con la energía solar y los sistemas de respaldo. A continuación, se
+                detallan los estudios teóricos que respaldan cada etapa del sistema implementado:
+
+                1. Energía Solar:
+                - Se han revisado investigaciones sobre la eficiencia de los paneles solares y los avances en tecnología
+                fotovoltaica. Estos estudios proporcionan información crítica sobre la captación de energía solar y la
+                conversión eficiente de la radiación solar en electricidad utilizable.
+
+                2. Diseño de Tablero Eléctrico:
+                - Investigaciones en diseño de tableros eléctricos se han considerado para garantizar la implementación
+                de un sistema seguro y funcional. Esto abarca la colocación estratégica de interruptores térmicos, la
+                selección de componentes y la consideración de normativas eléctricas aplicables.
+
+                3. Inversores y Conversión de Energía:
+                - Se abarcó información sobre inversores y sistemas de conversión de energía se han revisado para
+                comprender a fondo cómo convertir la energía continua generada por el panel solar en corriente alterna
+                para alimentar los electrodomésticos de manera eficiente y estable.
+
+                4. Protección contra Sobrecargas y Cortocircuitos:
+                - Estudiamos las reglas fundamentales detrás de los interruptores térmicos y otros dispositivos de
+                protección eléctrica han sido analizados para garantizar la seguridad del sistema. Esto incluye la
+                comprensión de los principios que rigen la detección y prevención de sobrecargas y cortocircuitos.
+
+
+                5. Aplicaciones Prácticas en Entornos Remotos:
+
+                - Realizamos un estudio sobre aplicaciones prácticas de sistemas de respaldo de energía en entornos
+                remotos, como áreas geográficas aisladas o durante actividades al aire libre. Esto proporciona
+                información valiosa sobre desafíos específicos y soluciones adaptativas.
+
+
+                Esta revisión de estudios teóricos en estas áreas críticas respalda cada etapa del sistema implementado,
+                asegurando que la propuesta se base en conocimientos consolidados y en las mejores prácticas de la
+                electrónica y de energías renovables. La síntesis de estas teorías ha guiado la implementación práctica
+                del proyecto, asegurando la coherencia entre la teoría y la aplicación efectiva del sistema de respaldo
+                de energía solar.
+            </p>
+        </div>
+    </div>
+    <div class="container3">
+        <div class="esquematico">
+            <img src="./images/WhatsApp Image 2023-11-24 at 11.00.03.jpeg" alt="">
+        </div>
+        <div class="esquematico">
+            <img src="./images/WhatsApp Image 2023-11-24 at 11.00.43.jpeg" alt="">
+        </div>
+        <div class="enlace">
+            <a href="http://github.com/villella30/SunFlowerEnergy" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </div>
+
+    <div class="container4">
+        <div class="esquematico">
+            <img src="./images/f.jpeg" alt="">
+            <img src="./images/b.jpeg" alt="">
+        </div>
+        <div class="enlace">
+            <a href="http://github.com/villella30/SunFlowerEnergy" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+
+    </div>
+
+    <div class="container5">
+        <div class="esquematico">
+            <img src="./images/fb.jpeg" alt="">
+        </div>
+        <div class="enlace">
+            <a href="http://github.com/villella30/SunFlowerEnergy" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </div>
+
+    <div class="container6">
+        <h2>Codigo</h2>
+        <pre><code>
+// Declaramos los pines a los que están conectados los Mosfets al Arduino.
+#define INAHI 3
+#define INALO 2
+#define INBHI 5
+#define INBLO 4
+
+void setup() {
+// Habilitamos los pines como salida.
+  pinMode(INAHI, OUTPUT);
+  pinMode(INBHI, OUTPUT);
+  pinMode(INALO, OUTPUT);
+  pinMode(INBLO, OUTPUT);
+}
+
+void loop() {											
+// Hacemos la lógica para que se activen esquinados y que cambian cada 2 segundos
+  digitalWrite(INAHI, HIGH);
+  digitalWrite(INALO, LOW);
+  digitalWrite(INBHI, HIGH);
+  digitalWrite(INBLO, LOW);
+// Agregamos un delay de 2 segundos
+  delay(2000);
+
+  digitalWrite(INAHI, LOW);
+  digitalWrite(INALO, HIGH);
+  digitalWrite(INBHI, LOW);
+  digitalWrite(INBLO, HIGH);
+// Agregamos un delay de 2 segundos
+  delay(2000);
+}
+
+</code></pre>
+        <div class="enlace">
+            <a href="http://github.com/villella30/SunFlowerEnergy" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+    </div>
+
+    <footer class="contacto">
+        <h2>Contacto</h2>
+        <div class="container-contacto">
+            <div class="cont1">
+                <h3>Facundo Tymkiw</h3>
+                <h3>Tel: +54 9 11 2486-9516</h3>
+                <h3>Mail: tymkiwfacundo04@gmail.com</h3>
+            </div>
+            <div class="cont2">
+                <h3>Valentino Villella</h3>
+                <h3>Tel: +54 9 11 3904-7704</h3>
+                <h3>Mail: villellavalentino11@gmail.com</h3>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
