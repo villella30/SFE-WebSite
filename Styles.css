@@ -10,7 +10,6 @@ body {
 .container {
     width: 100%;
     height: 720px;
-    margin: auto auto;
     background-image: url("./images/descripcion.jpg");
     padding: 50px 0;
 }
@@ -18,7 +17,6 @@ body {
 .container2 {
     width: 100%;
     height: 730px;
-    margin: auto auto;
     background-image: url("./images/panel.jpg");
     padding: 50px 0;
 }
@@ -26,7 +24,6 @@ body {
 .container3 {
     width: 100%;
     height: 900px;
-    margin: auto auto;
     background-image: url("./images/descripcion.jpg");
     padding: 50px 0;
 }
@@ -34,7 +31,6 @@ body {
 .container4 {
     width: 100%;
     height: 100%;
-    margin: auto auto;
     background-color: #333;
     padding: 50px 0;
 }
@@ -42,7 +38,6 @@ body {
 .container5 {
     width: 100%;
     height: 100%;
-    margin: auto auto;
     background-image: url("./images/descripcion.jpg");
     padding: 50px 0;
 }
@@ -50,7 +45,6 @@ body {
 .container6 {
     width: 100%;
     height: 100%;
-    margin: auto auto;
     background-color: #333;
     color: white;
     padding: 50px 0;
@@ -237,12 +231,15 @@ a:hover {
     }
 
     .contacto {
-        padding: 10px 0;
+        max-width: 100%;
+        padding: 10px;
         text-align: center;
     }
 
+    
+
     .container-contacto {
-        max-width: 200px;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -253,6 +250,7 @@ a:hover {
     .cont1,
     .cont2 {
         margin: 0 3px;
+        text-align: center;
     }
 }
 
@@ -318,7 +316,6 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
 
     }
 
@@ -326,6 +323,7 @@ a:hover {
     .cont1,
     .cont2 {
         margin: 10px 2px;
+        text-align: center;
 
     }
 }
