@@ -217,7 +217,9 @@ a:hover {
     a {
         width: 95%;
     }
-
+    img {
+        width: 300px;
+    }
     .codigo {
         max-width: 200px;
         text-align: center;
@@ -225,6 +227,7 @@ a:hover {
 
     .contacto {
         padding: 10px 0;
+        text-align: center;
     }
 
     .container-contacto {
@@ -233,7 +236,7 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+
     }
 
     .cont1,
@@ -278,7 +281,9 @@ a:hover {
         width: 90%;
         font-size: 12px;
     }
-
+img {
+    width: 200px;
+}
     .codigo {
         max-width: 200px;
         text-align: center;
