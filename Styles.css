@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
@@ -192,9 +192,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
     /* Media query para pantallas <= 600px */
 
-    .container-general {
-        max-width: 100%;
-    }
 
     .container,
     .container2,
@@ -202,6 +199,7 @@ a:hover {
     .container4,
     .container5,
     .container6 {
+        height: 100%;
         padding: 5px 0;
         margin: 0;
     }
@@ -261,17 +259,13 @@ a:hover {
 @media only screen and (max-width: 400px) {
     /* Nueva media query para pantallas <= 400px */
 
-    .container-general {
-        max-width: 100%;
-    }
-
     .container,
     .container2,
     .container3,
     .container4,
     .container5,
     .container6 {
-        max-width: 100%;
+        height: 100%;
         margin: 0;
     }
 
