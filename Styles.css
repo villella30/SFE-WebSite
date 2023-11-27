@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -186,6 +187,8 @@ a:hover {
     html, body {
         height: 100%;
         margin: 0;
+        overflow: hidden;
+
     }
 
     .container-general {
@@ -260,6 +263,10 @@ a:hover {
 
 @media only screen and (max-width: 400px) {
     /* Nueva media query para pantallas <= 400px */
+    body {
+        overflow: hidden;
+
+    }
 
     .container-general {
         max-width: 100%;
