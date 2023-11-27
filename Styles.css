@@ -181,6 +181,9 @@ a:hover {
 @media only screen and (max-width: 600px) {
     /* Media query para pantallas <= 600px */
 
+    .container-general {
+        max-width: 100%;
+    }
     .container,
     .container2,
     .container3,
@@ -224,13 +227,16 @@ a:hover {
 @media only screen and (max-width: 400px) {
     /* Nueva media query para pantallas <= 400px */
 
+    .container-general {
+        max-width: 100%;
+    }
     .container,
     .container2,
     .container3,
     .container4,
     .container5,
     .container6 {
-        padding: 20px 0;
+        max-width: 100%;
     }
 
     .description,
@@ -266,7 +272,7 @@ a:hover {
     }
 
     .codigo {
-        max-width: 300px;
+        max-width: 200px;
         text-align: center;
     }
 
