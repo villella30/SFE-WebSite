@@ -201,6 +201,7 @@ a:hover {
     .esquematico {
         margin-top: 5px;
     }
+
     .esquematico1 {
         max-width: 450px;
     }
@@ -229,7 +230,7 @@ a:hover {
     .container4,
     .container5,
     .container6 {
-        padding: 2px 0;
+        padding: 20px 0;
     }
 
     .description,
@@ -247,17 +248,31 @@ a:hover {
     .esquematico1 {
         max-width: 350px;
     }
+
     a {
         width: 90%;
         font-size: 12px;
     }
 
     .contacto {
-        padding: 5px 0;
+        padding: 20px 0;
+
+    }
+    .container-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codigo {
+        max-width: 300px;
+        text-align: center;
     }
 
     .cont1,
     .cont2 {
-        margin: 0 2px;
+        margin: 10px 2px;
+
     }
 }
