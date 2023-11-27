@@ -184,6 +184,7 @@ a:hover {
     .container-general {
         max-width: 100%;
     }
+
     .container,
     .container2,
     .container3,
@@ -214,8 +215,22 @@ a:hover {
         width: 95%;
     }
 
+    .codigo {
+        max-width: 200px;
+        text-align: center;
+    }
+
     .contacto {
         padding: 10px 0;
+    }
+
+    .container-contacto {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .cont1,
@@ -230,6 +245,7 @@ a:hover {
     .container-general {
         max-width: 100%;
     }
+
     .container,
     .container2,
     .container3,
@@ -260,21 +276,26 @@ a:hover {
         font-size: 12px;
     }
 
-    .contacto {
-        padding: 20px 0;
-
-    }
-    .container-contacto {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
     .codigo {
         max-width: 200px;
         text-align: center;
     }
+
+    .contacto {
+        padding: 20px 0;
+
+    }
+
+    .container-contacto {
+        max-width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
 
     .cont1,
     .cont2 {
